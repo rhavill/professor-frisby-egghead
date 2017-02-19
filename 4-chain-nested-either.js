@@ -1,4 +1,6 @@
 
+const fs = require('fs');
+
 const Right = x => ({
 	chain: f => f(x),
 	map: f => Right(f(x)),
@@ -12,8 +14,6 @@ const Left = x => ({
 	fold: (f, g) => f(x),
 	inspect: () => `Left(${x})`
 });
-
-const fs = require('fs');
 
 // const getPort = () => {
 // 	try {
