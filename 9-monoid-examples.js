@@ -84,7 +84,13 @@ const stats = List.of(
 	{page: 'Blog', views: 4}
 );
 
+// const res = stats
+// 	.map(x => x.views)
+// 	.map(Sum)
+// 	.fold(Sum.empty());
+
 const res = stats.foldMap(x =>
-	fromNullable(x.views).map(Sum), Right(Sum(0)));
+	fromNullable(x.views).map(Sum), Right(Sum(0)))
+	.fold(e => e, x => x);
 
 console.log(res);
