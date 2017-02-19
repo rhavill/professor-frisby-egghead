@@ -1,0 +1,24 @@
+{
+  "name": "professor-frisby-egghead",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-box.js",
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "immutable-ext": "^1.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhavill/professor-frisby-egghead.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhavill/professor-frisby-egghead/issues"
+  },
+  "homepage": "https://github.com/rhavill/professor-frisby-egghead#readme"
+}
