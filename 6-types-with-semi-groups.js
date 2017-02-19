@@ -1,4 +1,4 @@
-/* A semu-group is a type with a concat method that is associative. */
+/* A semi-group is a type with a concat method that is associative. */
 
 // String semi-group
 // const res = "a".concat("b").concat("c");
