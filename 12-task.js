@@ -37,7 +37,7 @@ const Task = require('data.task');
 const launchSite = () =>
 	new Task((rej, res) => {
 		console.log('Launch site!');
-		res('site')
+		res('site');
 	});
 
 // launchSite()
